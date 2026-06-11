@@ -23,7 +23,7 @@ export const RECIPES: Recipe[] = [
     id: 'pepper-potato',
     name: '青椒土豆丝',
     coverEmoji: '🥔',
-    requiredIngredients: ['v-pepper', 'v-potato', 'se-salt', 'se-vinegar', 'se-oil', 'se-garlic'],
+    requiredIngredients: ['v-pepper', 'v-potato', 'se-salt', 'se-vinegar', 'se-oil', 'v-garlic'],
     steps: [
       '土豆去皮切细丝，泡水洗去淀粉',
       '青椒切丝，大蒜切末',
@@ -41,7 +41,7 @@ export const RECIPES: Recipe[] = [
     id: 'garlic-broccoli',
     name: '蒜蓉西兰花',
     coverEmoji: '🥦',
-    requiredIngredients: ['v-broccoli', 'se-garlic', 'se-salt', 'se-oil', 'se-oyster'],
+    requiredIngredients: ['v-broccoli', 'v-garlic', 'se-salt', 'se-oil', 'se-oyster'],
     steps: [
       '西兰花切小朵，盐水浸泡10分钟',
       '大蒜剁成蒜蓉',
@@ -78,7 +78,7 @@ export const RECIPES: Recipe[] = [
     id: 'cucumber-fungus',
     name: '黄瓜拌木耳',
     coverEmoji: '🥒',
-    requiredIngredients: ['v-cucumber', 'v-fungus', 'se-garlic', 'se-vinegar', 'se-soy', 'se-sesame'],
+    requiredIngredients: ['v-cucumber', 'v-fungus', 'v-garlic', 'se-vinegar', 'se-soy', 'se-sesame'],
     steps: [
       '木耳提前泡发，焯水1分钟过凉水',
       '黄瓜拍碎切段',
@@ -96,7 +96,7 @@ export const RECIPES: Recipe[] = [
     id: 'tofu-stir-fry',
     name: '家常豆腐',
     coverEmoji: '🍮',
-    requiredIngredients: ['p-tofu', 'v-green-onion', 'se-garlic', 'se-soy', 'se-oyster', 'se-oil', 'se-starch'],
+    requiredIngredients: ['p-tofu', 'v-green-onion', 'v-garlic', 'se-soy', 'se-oyster', 'se-oil', 'se-starch'],
     steps: [
       '豆腐切方块，用厨房纸吸干水分',
       '调酱汁：生抽+蚝油+淀粉+水',
@@ -115,7 +115,7 @@ export const RECIPES: Recipe[] = [
     id: 'potato-beef',
     name: '土豆炖牛肉',
     coverEmoji: '🥘',
-    requiredIngredients: ['v-potato', 'p-beef', 'v-carrot', 'v-onion', 'se-garlic', 'se-soy', 'se-oil', 'se-salt'],
+    requiredIngredients: ['v-potato', 'p-beef', 'v-carrot', 'v-onion', 'v-garlic', 'se-soy', 'se-oil', 'se-salt'],
     steps: [
       '牛肉切块焯水去血沫',
       '土豆胡萝卜切块，洋葱切片',
@@ -134,7 +134,7 @@ export const RECIPES: Recipe[] = [
     id: 'mushroom-chicken',
     name: '蘑菇滑鸡片',
     coverEmoji: '🍗',
-    requiredIngredients: ['p-chicken', 'v-mushroom', 'v-green-onion', 'se-garlic', 'se-soy', 'se-oil', 'se-starch', 'se-salt'],
+    requiredIngredients: ['p-chicken', 'v-mushroom', 'v-green-onion', 'v-garlic', 'se-soy', 'se-oil', 'se-starch', 'se-salt'],
     steps: [
       '鸡胸肉切片，用生抽淀粉抓匀腌制10分钟',
       '蘑菇切片，葱切段',
@@ -153,7 +153,7 @@ export const RECIPES: Recipe[] = [
     id: 'cabbage-noodle',
     name: '白菜炝锅面',
     coverEmoji: '🍜',
-    requiredIngredients: ['v-cabbage', 's-noodle', 'p-egg', 'v-green-onion', 'se-garlic', 'se-soy', 'se-salt', 'se-oil'],
+    requiredIngredients: ['v-cabbage', 's-noodle', 'p-egg', 'v-green-onion', 'v-garlic', 'se-soy', 'se-salt', 'se-oil'],
     steps: [
       '白菜切丝，葱切段，蒜切末',
       '热锅热油，爆香蒜末葱段',
@@ -172,7 +172,7 @@ export const RECIPES: Recipe[] = [
     id: 'instant-upgrade',
     name: '豪华方便面',
     coverEmoji: '🍜',
-    requiredIngredients: ['s-instant-noodle', 'p-egg', 'v-green-onion', 'v-cabbage', 'se-sausage'],
+    requiredIngredients: ['s-instant-noodle', 'p-egg', 'v-green-onion', 'v-cabbage', 'p-sausage'],
     steps: [
       '火腿肠切片，白菜切丝',
       '水烧开，下面饼和调料包',
@@ -207,7 +207,7 @@ export const RECIPES: Recipe[] = [
     id: 'eggplant-potato',
     name: '地三鲜',
     coverEmoji: '🍆',
-    requiredIngredients: ['v-eggplant', 'v-potato', 'v-pepper', 'se-garlic', 'se-soy', 'se-vinegar', 'se-sugar', 'se-oil', 'se-starch'],
+    requiredIngredients: ['v-eggplant', 'v-potato', 'v-pepper', 'v-garlic', 'se-soy', 'se-vinegar', 'se-sugar', 'se-oil', 'se-starch'],
     steps: [
       '茄子土豆切块，青椒切片',
       '调酱汁：生抽+醋+糖+淀粉+水',
@@ -225,7 +225,7 @@ export const RECIPES: Recipe[] = [
     id: 'mapo-tofu',
     name: '麻婆豆腐',
     coverEmoji: '🌶️',
-    requiredIngredients: ['p-tofu', 'p-pork', 'se-garlic', 'se-ginger', 'se-sauce', 'se-soy', 'se-oil', 'se-starch', 'se-pepper'],
+    requiredIngredients: ['p-tofu', 'p-pork', 'v-garlic', 'se-ginger', 'se-sauce', 'se-soy', 'se-oil', 'se-starch', 'se-pepper'],
     steps: [
       '豆腐切小块焯水，猪肉剁碎',
       '热锅热油，炒散肉末',
@@ -297,7 +297,7 @@ export const RECIPES: Recipe[] = [
     id: 'carrot-shrimp',
     name: '胡萝卜炒虾仁',
     coverEmoji: '🦐',
-    requiredIngredients: ['p-shrimp', 'v-carrot', 'v-green-onion', 'se-garlic', 'se-soy', 'se-oil', 'se-salt'],
+    requiredIngredients: ['p-shrimp', 'v-carrot', 'v-green-onion', 'v-garlic', 'se-soy', 'se-oil', 'se-salt'],
     steps: [
       '虾仁加少许生抽腌制5分钟',
       '胡萝卜切薄片，葱切段',
@@ -335,7 +335,7 @@ export const RECIPES: Recipe[] = [
     id: 'lettuce-salad',
     name: '凉拌生菜',
     coverEmoji: '🥗',
-    requiredIngredients: ['v-lettuce', 'se-garlic', 'se-soy', 'se-vinegar', 'se-sesame', 'se-sugar', 'se-salt'],
+    requiredIngredients: ['v-lettuce', 'v-garlic', 'se-soy', 'se-vinegar', 'se-sesame', 'se-sugar', 'se-salt'],
     steps: [
       '生菜洗净撕小块，沥干水分',
       '大蒜切末',
@@ -370,7 +370,7 @@ export const RECIPES: Recipe[] = [
     id: 'chili-tofu',
     name: '青椒煎豆腐',
     coverEmoji: '🫑',
-    requiredIngredients: ['p-tofu', 'v-chili', 'se-garlic', 'se-soy', 'se-oyster', 'se-oil', 'se-starch'],
+    requiredIngredients: ['p-tofu', 'v-chili', 'v-garlic', 'se-soy', 'se-oyster', 'se-oil', 'se-starch'],
     steps: [
       '豆腐切厚片，辣椒切块',
       '调酱汁：生抽+蚝油+淀粉+水',
@@ -442,7 +442,7 @@ export const RECIPES: Recipe[] = [
     id: 'celery-beef',
     name: '芹菜炒牛肉',
     coverEmoji: '🥬',
-    requiredIngredients: ['v-celery', 'p-beef', 'se-garlic', 'se-soy', 'se-oil', 'se-starch', 'se-salt'],
+    requiredIngredients: ['v-celery', 'p-beef', 'v-garlic', 'se-soy', 'se-oil', 'se-starch', 'se-salt'],
     steps: [
       '牛肉切片，生抽淀粉抓匀腌10分钟',
       '芹菜切段',
